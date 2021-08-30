@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydra</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href = "css/style.css">
+</head>
+<body>
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="index.html" class="logo"><i class="fas fa-gamepad"></i> Game Sto<span>re</span></a>
+        
+
+        <nav class="navbar">
+            <a href="ps4.html"><i class="fab fa-playstation"></i></a>
+            <a href="pc.html"><i class="fas fa-desktop"></i></a>
+            <a href ="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+      
+    </header>
+
+    <div class="profile-form-container">
+
+        <i class="fas fa-times" id="profileform-close"></i>
+
+        <form action="">
+            <h3>Games</h3>
+            <label for="profilename" >Name</label>
+            <input type="text" class="box" placeholder="enter name">
+            <label for="gmail">Gmail</label>
+            <input type="text" class="box" placeholder="enter gmail">
+            <label for="favGames">Favorite Games</label>
+            <input type="text" class="box" >
+            <input type="submit" value="Confirm Changes" class="AddProfilebtn">
+        </form>
+    </div>
+
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="profile-container">
+            <div class="profile-info">
+                <div class="col">
+                    <img src="images/profile.png" alt="">
+                </div>
+                <div class="row1">
+                    <div class="col-md3">
+                        <h5>Full Name</h5>
+                    </div> 
+                    <div class="col-secondary">
+                        noobmaster96
+                    </div>
+                </div>
+
+                <div class="row1">
+                    <div class="col-md3">
+                        <h5>Email</h5>
+                    </div> 
+                    <div class="col-secondary">
+                        u6118156@au.edu
+                    </div>
+                </div>
+
+                <div class="row1">
+                    <div class="col-md3">
+                        <h5>Favorite Games</h5>
+                    </div> 
+                    <div class="col-secondary">
+                        Valorant, Csgo, Division 2
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="content">
+            <button id="btnNew">
+                Edit Profile
+              </button>
+              <a href="#" id="delete"> Delete Account </a>
+        </div>
+       
+    </section>
+
+
+    <script src="js/profile.js"></script>
+</body>
+</html>

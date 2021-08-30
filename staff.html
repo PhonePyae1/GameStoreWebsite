@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydra</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href = "css/style.css">
+</head>
+<body>
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="index.html" class="logo"><i class="fas fa-gamepad"></i> Game Sto<span>re</span></a>
+        
+
+        <nav class="navbar">
+            <a href="ps4.html"><i class="fab fa-playstation"></i></a>
+            <a href="pc.html"><i class="fas fa-desktop"></i></a>
+            <a href ="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+      
+    </header>
+
+    <div class="game-form-container">
+
+        <i class="fas fa-times" id="gameform-close"></i>
+
+        <form action="">
+            <h3>Games</h3>
+            <label for="gamename" >Game Name</label>
+            <input type="text" class="box" placeholder="enter game name">
+            <label for="price">price</label>
+            <input type="text" class="box" placeholder="enter price">
+            <label for="gameType">Game Type</label>
+            <input type="text" class="box" placeholder="PS4 OR PC">
+            <label for="categories">Catagories</label>
+            <input type="text" class="box" placeholder="SciFi - Fantasy">
+            <input type="submit" value="Add" class="AddGamebtn">
+        </form>
+    </div>
+
+    <!-- home section -->
+    <div id="boxes">
+        <div id="user-container">
+            <h3>Users</h3>
+            <li>
+                    NoobMaster96
+            </li>
+        
+        </div>
+
+        <div id="games-container">
+            <h3>
+                Games
+            </h3>
+            <button id="addGames">
+                Add
+            </button>
+    
+            <li>
+                Grand Theft Auto
+            </li>
+        </div>
+    </div>
+       
+    <script src="js/script1.js"></script>
+</body>
+</html>

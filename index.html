@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydra</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href = "css/style.css">
+
+</head>
+<body>
+
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="index.html" class="logo"><i class="fas fa-gamepad"></i> Game Sto<span>re</span></a>
+        
+
+        <nav class="navbar">
+            <a href="ps4.html"><i class="fab fa-playstation"></i></a>
+            <a href="pc.html"><i class="fas fa-desktop"></i></a>
+            <a href ="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+      
+    </header>
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <label for="username" >UserName</label>
+            <input type="text" class="box" placeholder="enter your username">
+            <label for="password">Password</label>
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn"> 
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>sign up? <a href="profile.html">register now</a></p>
+
+        </form>
+    </div>
+
+    <div class="chooseGameType">
+        <button id="btnNew1">
+            <a href="ps4.html"><i class="fab fa-playstation"></i></a>
+          </button>
+        <button id="btnNew2">
+            <a href="pc.html"><i class="fas fa-desktop"></i></a>
+        </button>
+    </div>
+
+    <!-- home section -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Discover More Games</h3>
+            <button id="btnNew">
+                Find Games
+              </button>
+        </div>
+        <div class="controls">
+            <span class="vid-btn" data-src="images/vid-1trim.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1trim.mp4" id="video-slider" autoplay muted></video>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+
+                        <li>
+                            <a href="#">about us</a><br>
+                            <a href="#">our services</a><br>
+                            <a href="#">privacy policy</a><br>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+
+                        <li>
+                            <a href="#">FAQ</a><br>
+                            <a href="#">shipping</a><br>
+                            <a href="#">returns</a><br>
+                            <a href="#">order status</a><br>
+                            <a href="#">payment options</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+
+                        <li>
+                            <a href="#">09-970504214</a><br>
+                          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/script.js"></script>
+    
+</body>
+</html>

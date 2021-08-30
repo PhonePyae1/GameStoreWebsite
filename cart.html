@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydra</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href = "css/style.css">
+</head>
+<body>
+
+    <header>
+       
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <a href="index.html" class="logo"><i class="fas fa-gamepad"></i> Game Sto<span>re</span></a>
+            
+    
+            <nav class="navbar">
+                <a href="ps4.html"><i class="fab fa-playstation"></i></a>
+                <a href="pc.html"><i class="fas fa-desktop"></i></a>
+                <a href ="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </nav>
+    
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+    
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+          
+      
+    </header>
+
+    <!-- home section -->
+    <section>
+        <div class="cart-container">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/img1.jpg" alt="" id="cart-pic">
+                            <div>
+                                <p>Division 2</p>
+                                <small>$ 49.99</small>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$49.99</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/img2.jpg" alt="" id="cart-pic">
+                            <div>
+                                <p>Red Dead Redemption 2</p>
+                                <small>$ 59.99</small>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$59.99</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/img3.jpg" alt="" id="cart-pic">
+                            <div>
+                                <p>Ghost </p>
+                                <small>$ 39.99</small>
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$39.99</td>
+                </tr>
+            </table>
+
+           
+        </div>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$149.97</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$30.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$179.97</td>
+                </tr>
+            </table>
+
+        
+        </div> <a href="index.html" id="buyGameA">
+        <button id="buyGame">
+            Check Out
+        </button></a>
+    </section>
+  
+
+    <script src="js/ps4.js"></script>
+</body>
+</html>
